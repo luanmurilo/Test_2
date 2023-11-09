@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: rgb(244,189,213);
+    background: radial-gradient(circle, rgba(244,189,213,1) 0%, rgba(224,230,237,1) 100%);    
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+#botaoNao {
+    background-image: url('Imagens/imagem_fundo4.png');
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    border: none;
+    font-size: 40px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;   
+}
+#botaoSim {
+    background-image: url('Imagens/imagem_fundo.png');
+    background-size: cover;
+    width: 100px;
+    height: 150px;
+    border: none;
+    font-size: 40px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px; 
+    margin: 0px 300px 0px 0px;             
+}
+#sim{
+    border-radius: 5px;
+    border: 0px;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(240, 255, 255, 0);
+}
+#textoSim {
+    font-size: xx-large;
+    text-align: center;
+}
+#estrutura {
+    text-align: center;
+    margin-top: 10%;
+}
