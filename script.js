@@ -18,7 +18,7 @@ botaoNao.addEventListener('click', function() {
 
     if (count == 1) {
         console.log(count);
-        botaoNao.style.backgroundImage = "url('Imagens/felca.png')";
+        botaoNao.style.backgroundImage = "url('felca.png')";
         botaoNao.style.backgroundSize = "100%";
         botaoNao.style.fontSize = "30px";
         botaoNao.textContent = 'Ta certo isso?';
@@ -26,7 +26,7 @@ botaoNao.addEventListener('click', function() {
 
     else if (count == 2) {
         console.log(count)
-        botaoNao.style.backgroundImage = "url('Imagens/imagem_fundo3.png')"
+        botaoNao.style.backgroundImage = "url('imagem_fundo3.png')"
         botaoNao.style.backgroundSize = "cover";
         botaoNao.style.backgroundPosition = 'center center'
         botaoNao.style.fontSize = "20px";
@@ -35,7 +35,7 @@ botaoNao.addEventListener('click', function() {
 
     else if (count == 3) {
         console.log(count)
-        botaoNao.style.backgroundImage = "url('Imagens/escuta_aqui.png')"
+        botaoNao.style.backgroundImage = "url('escuta_aqui.png')"
         botaoNao.style.backgroundSize = "cover";
         botaoNao.style.backgroundPosition = 'center center'
         botaoNao.style.fontSize = "30px";
@@ -44,7 +44,7 @@ botaoNao.addEventListener('click', function() {
 
     else if (count == 4) {
         console.log(count)
-        botaoNao.style.backgroundImage = "url('Imagens/dancinha.png')"
+        botaoNao.style.backgroundImage = "url('dancinha.png')"
         botaoNao.style.backgroundSize = "cover";
         botaoNao.style.backgroundPosition = 'center center'
         botaoNao.style.fontSize = "20px";
@@ -53,7 +53,7 @@ botaoNao.addEventListener('click', function() {
 
     else if (count == 5) {
         console.log(count)
-        botaoNao.style.backgroundImage = "url('Imagens/aceita_muie.png')"
+        botaoNao.style.backgroundImage = "url('aceita_muie.png')"
         botaoNao.style.backgroundSize = "cover";
         botaoNao.style.backgroundPosition = 'center center'
         botaoNao.style.fontSize = "30px";
@@ -62,7 +62,7 @@ botaoNao.addEventListener('click', function() {
 
     else if (count == 6) {
         console.log(count)
-        botaoNao.style.backgroundImage = "url('Imagens/quer_saber.png')"
+        botaoNao.style.backgroundImage = "url('quer_saber.png')"
         botaoNao.style.backgroundSize = "cover";
         botaoNao.style.backgroundPosition = 'center center'
         botaoNao.style.fontSize = "30px";
@@ -71,7 +71,7 @@ botaoNao.addEventListener('click', function() {
 
     else if (count == 7) {
         console.log(count)
-        botaoNao.style.backgroundImage = "url('Imagens/mimir.png')"
+        botaoNao.style.backgroundImage = "url('mimir.png')"
         botaoNao.style.backgroundSize = "cover";
         botaoNao.style.backgroundPosition = 'center center'
         botaoNao.style.fontSize = "30px";
@@ -80,7 +80,7 @@ botaoNao.addEventListener('click', function() {
 
     else if (count == 8) {
         console.log(count)
-        botaoNao.style.backgroundImage = "url('Imagens/imagem_fundo4.png')"
+        botaoNao.style.backgroundImage = "url('imagem_fundo4.png')"
         botaoNao.style.backgroundSize = "cover";
         botaoNao.style.backgroundPosition = 'center center'
         botaoNao.style.fontSize = "30px";
@@ -88,7 +88,7 @@ botaoNao.addEventListener('click', function() {
     }
 
     else if(count > 8) {
-        botaoSim.style.backgroundImage = "url('Imagens/imagem_fundo2.png')"
+        botaoSim.style.backgroundImage = "url('imagem_fundo2.png')"
         botaoSim.style.backgroundSize = "cover";
         botaoSim.style.backgroundPosition = 'center center'
         botaoSim.textContent = '';
@@ -99,7 +99,7 @@ botaoNao.addEventListener('click', function() {
 botaoSim.addEventListener('click', function() { 
     function pinguins() {
         x = document.querySelector("#sim")
-        x.style.backgroundImage = "url('Imagens/pinguin.png')"
+        x.style.backgroundImage = "url('pinguin.png')"
         x.style.backgroundSize = "cover";
         x.style.backgroundPosition = 'center center'
 
@@ -116,7 +116,7 @@ botaoSim.addEventListener('click', function() {
         count = 0;
         tentativas ++;
         x = document.querySelector("#sim")
-        x.style.backgroundImage = "url('Imagens/facil.png')"
+        x.style.backgroundImage = "url('facil.png')"
         x.style.backgroundSize = "cover";
         x.style.backgroundPosition = 'center center'
 
@@ -134,7 +134,7 @@ botaoSim.addEventListener('click', function() {
 
     else if(tentativas == 1) {
         x = document.querySelector("#sim")
-        x.style.backgroundImage = "url('Imagens/feliz.png')"
+        x.style.backgroundImage = "url('feliz.png')"
         x.style.backgroundSize = "cover";
         x.style.backgroundPosition = 'center center'
 
@@ -150,7 +150,7 @@ botaoSim.addEventListener('click', function() {
 
     else if(count >= 5) {
         x = document.querySelector("#sim")
-        x.style.backgroundImage = "url('Imagens/antes_tarde.png')"
+        x.style.backgroundImage = "url('antes_tarde.png')"
         x.style.backgroundSize = "cover";
         x.style.backgroundPosition = 'center center'
 
@@ -159,7 +159,7 @@ botaoSim.addEventListener('click', function() {
         `
         invisivel()
         function trol() {
-            x.style.backgroundImage = "url('Imagens/feliz.png')"
+            x.style.backgroundImage = "url('feliz.png')"
             x.style.backgroundSize = "cover";
             x.style.backgroundPosition = 'center center'
 
@@ -176,7 +176,7 @@ botaoSim.addEventListener('click', function() {
 
     else if(count > 0 || count < 5) {
         x = document.querySelector("#sim")
-        x.style.backgroundImage = "url('Imagens/feliz.png')"
+        x.style.backgroundImage = "url('feliz.png')"
         x.style.backgroundSize = "cover";
         x.style.backgroundPosition = 'center center'
 
